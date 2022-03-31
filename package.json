@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/Alex-esc1/ReactReduxApp/issues"
   },
-  "homepage": "https://github.com/Alex-esc1/ReactReduxApp#readme"
+  "homepage": "https://github.com/Alex-esc1/ReactReduxApp#readme",
+  "dependencies": {
+    "-": "^0.0.1",
+    "D": "^1.0.0",
+    "webpack": "^5.70.0"
+  }
 }
