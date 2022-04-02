@@ -18,13 +18,16 @@
   "homepage": "https://github.com/Alex-esc1/ReactReduxApp#readme",
   "dependencies": {
     "-": "^0.0.1",
-    "D": "^1.0.0",
-    "webpack": "^5.70.0"
+    "D": "^1.0.0"
   },
   "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.7.1",
     "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
     "less-loader": "^10.2.0",
-    "style-loader": "^3.3.1"
+    "style-loader": "^3.3.1",
+    "webpack": "^5.71.0",
+    "webpack-cli": "^4.9.2"
   }
 }
