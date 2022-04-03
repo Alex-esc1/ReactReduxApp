@@ -14,11 +14,11 @@ module.exports = {
         new CleanWebpackPlugin()
     ],
     module: {
-        rules:[
+        rules: [
             {
-        test:/\.(css|less)$/,
-        use: ["style-loader", "css-loader", "less-loader"]
-        }
-    ]
+                test:/\.(css|less)$/,
+                use: ["style-loader", "css-loader", "less-loader"]
+             }
+        ]
     }
 }
