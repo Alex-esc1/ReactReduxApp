@@ -19,9 +19,15 @@
   "homepage": "https://github.com/Alex-esc1/ReactReduxApp#readme",
   "dependencies": {
     "-": "^0.0.1",
+    "@babel/polyfill": "^7.12.1",
     "D": "^1.0.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.4",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.7.1",
     "file-loader": "^6.2.0",
