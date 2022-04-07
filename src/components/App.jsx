@@ -13,7 +13,7 @@ const App = () => {
         <BrowserRouter>
             <div className="container">
             <Routes>
-                <Route path="/" component={Main} />
+                <Route path="/" element={<Main/>} />
             </Routes>
             </div>
         </BrowserRouter>
