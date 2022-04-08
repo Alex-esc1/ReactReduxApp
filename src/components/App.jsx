@@ -5,6 +5,7 @@ import {BrowserRouter, Routes} from "react-router-dom";
 import {Route, Navigate} from "react-router";
 import Main from "./main/Main.";
 import Card from "./card/card";
+import Error from "./main/Error";
 
 
 const App = () => {
@@ -16,8 +17,8 @@ const App = () => {
             <Routes>
                 <Route exact path="/" element={<Main/>} />
                 <Route path="/card/:username/:reponame" element={<Card/>} />
-                <Route path="*" element={<Navigate to="/" replace />}
-                />
+                <Route path="/error" element={<Error/>} />
+                <Route path="*" element={<Navigate to="/" replace />}/>
             </Routes>
             </div>
         </BrowserRouter>
