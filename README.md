@@ -1,4 +1,4 @@
-# ReactReduxApp
+# ReactReduxApp (React 18, react-router v6)
  
 ```
 Stack: React js + Redux + Webpack
